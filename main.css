@@ -385,6 +385,29 @@ div.flip-cards-flex {
     font-weight: 700;
     font-size: 1rem;
   }
+
+  /* div.front-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+   h4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010101;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  div.front-image h6 {
+      color: #919191;
+      font-size: 0.6rem;
+      font-weight: 300;
+      text-align: center;
+  }
   
   .card .back {
     font-size: 1.5rem;
