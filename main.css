@@ -226,6 +226,23 @@ div.btn-1 a:hover {
 }
 /* Hero Section Styling Ends */
 
+/* Sub-Hero Styling Starts */
+div.sub-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div.sub-hero-icons {
+    display: flex;
+    justify-content: space-between;
+} */
+
+div.icons-1 img {
+    color: #FE6F67;
+}
+/* Sub-Hero Styling Ends */
+
 
 /* body {
     background-image: url('images/ellipse.svg');
