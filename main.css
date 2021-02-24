@@ -228,18 +228,28 @@ div.btn-1 a:hover {
 
 /* Sub-Hero Styling Starts */
 div.sub-hero-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1em;
 }
 
-/* div.sub-hero-icons {
-    display: flex;
-    justify-content: space-between;
-} */
-
 div.icons-1 img {
-    color: #FE6F67;
+    width: 60px;
+    height: 60px;
+}
+
+div.icons-5 img {
+    width: 60px;
+    height: 60px;
+}
+
+div.icons-6 img {
+    width: 60px;
+    height: 60px;
+}
+
+div.sub-hero-icons {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 /* Sub-Hero Styling Ends */
 
