@@ -231,7 +231,6 @@ div.sub-hero-section {
     padding: 2em;
 }
 
-
 div.sub-hero-icons {
     display: flex;
     justify-content: space-evenly;
@@ -304,11 +303,92 @@ div.icons-6 h3 {
     text-align: center;
     font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+    div.sub-hero-icons {
+        margin-top: 1em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.icons-1 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.icons-1 {
+        margin-bottom: 3em;
+    }
+
+    div.icons-2 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.icons-2 {
+        margin-bottom: 3em;
+    }
+
+    div.icons-3 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.icons-3 {
+        margin-bottom: 3em;
+    }
+
+    div.icons-4 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.icons-4 {
+        margin-bottom: 3em;
+    }
+
+    div.icons-5 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.icons-5 {
+        margin-bottom: 3em;
+    }
+
+    div.icons-6 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.icons-6 {
+        margin-bottom: 3em;
+    }
+}
 /* Sub-Hero Styling Ends */
 
 /* Flip-Cards Styling Starts */
 div.flip-cards-section {
-    padding: 2em;
+    padding: 5em;
 }
 
 div.flip-cards-flex {
@@ -365,7 +445,7 @@ div.flip-cards-flex {
   
   .card-wrapper,
   .card {
-    width: 200px;
+    width: 280px;
     height: 200px;
     margin: 10px;
   }
@@ -376,21 +456,15 @@ div.flip-cards-flex {
     align-items: center;
     justify-content: center;
     border: 1px solid #fc545e;
-    border-radius: 4px;
-  }
-  
-  .card .front {
-    color: #fc545e;
-    background: #ffffff;
-    font-weight: 700;
-    font-size: 1rem;
+    border-radius: 5px;
   }
 
-  /* div.front-image {
+  div.immmaeee {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+    margin-bottom: 15px;
+}
 
    h4 {
     text-align: center;
@@ -400,6 +474,7 @@ div.flip-cards-flex {
     color: #010101;
     font-size: 0.9rem;
     font-weight: 300;
+    margin-bottom: 5px;
   }
 
   div.front-image h6 {
@@ -410,9 +485,14 @@ div.flip-cards-flex {
   }
   
   .card .back {
-    font-size: 1.5rem;
-    color: #ffffff;
-    background: #fc545e;
+    background: #010101;
+    border: 0;
+  }
+
+  .card .back h4{
+    font-size: 0.8rem;
+    color: #cec9c9;
+    padding: 5px;
   }
   
 /* Flip-Cards Styling Ends */
