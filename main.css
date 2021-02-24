@@ -228,28 +228,81 @@ div.btn-1 a:hover {
 
 /* Sub-Hero Styling Starts */
 div.sub-hero-section {
-    padding: 1em;
+    padding: 2em;
 }
 
-div.icons-1 img {
-    width: 60px;
-    height: 60px;
-}
-
-div.icons-5 img {
-    width: 60px;
-    height: 60px;
-}
-
-div.icons-6 img {
-    width: 60px;
-    height: 60px;
-}
 
 div.sub-hero-icons {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 3em;
+}
 
+div.icons-1 img {
+    width: 80px;
+    height: 80px;
+}
+
+div.icons-1 h3 {
+    color: #010101;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.icons-2 img {
+    width: 80px;
+    height: 80px;
+}
+
+div.icons-2 h3 {
+    color: #010101;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.icons-3 img {
+    width: 80px;
+    height: 80px;
+}
+
+div.icons-3 h3 {
+    color: #010101;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.icons-4 img {
+    width: 80px;
+    height: 80px;
+}
+
+div.icons-4 h3 {
+    color: #010101;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.icons-5 img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+div.icons-5 h3 {
+    color: #010101;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.icons-6 img {
+    width: 80px;
+    height: 80px;
+}
+
+div.icons-6 h3 {
+    color: #010101;
+    text-align: center;
+    font-size: 1rem;
 }
 /* Sub-Hero Styling Ends */
 
@@ -284,3 +337,5 @@ div.content {
         transform: rotate(360deg);
     }
 } */
+
+/* box-shadow: 0px 15px 40px rgb(0 0 0 / 5%); */
