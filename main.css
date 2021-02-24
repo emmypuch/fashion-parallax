@@ -1,12 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
+/* Navigation Styling Starts */
+div.naigation-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    background-color: azure;
+}
+
+div.nav-logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #010101;
+}
+
+div.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.nav-links ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.active, div.nav-links ul li:hover {
+    text-decoration: underline;
+}
+
+div.nav-links ul li {
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+div.nav-links ul li a {
+    text-decoration: none;
+    color: #010101;
+    font-size: 1rem;
+}
+
+div.nav-icons {
+    display: inline-flex;
+    list-style: none;
+}
+
+div.nav-icons li {
+    /* width: 40px; */
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+div.nav-icons li a {
+    text-decoration: none;
+    color: #010101;
+    font-size: 1rem;
+}
+
+div.nav-icons li.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background: #eee;
+    margin-right: 10px;
+}
+
+div.nav-icons li.share img{
+    width: 20px;
+    height: 20px;
+}
+
+div.nav-icons li.search img{
+    width: 20px;
+    height: 20px;
+}
+
+div.nav-icons li.nav-icons-btn a{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #FE6F67;
+    font-size: 1rem;
+    color: #010101;
+}
+
+div.nav-icons li.nav-icons-btn a:hover{
+    background-color: #010101;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+}
+
+/* Sub-Menu Styling Starts */
+div.sub-menu-1 {
+    display: none;
+}
+
+div.nav-links ul li:hover div.sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: azure;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+div.nav-links ul li:hover div.sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+div.nav-links ul li:hover div.sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #010101;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+div.nav-links ul li:hover div.sub-menu-1 ul li a {
+    color: #010101;
+}
+
+div.nav-links ul li:hover div.sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+/* Sub-Menu Styling Ends */
+
+@media (max-width: 768px) {
+    div.naigation-container {
+        display: flex;
+        justify-content: center;
+        /* padding: 1em; */
+    }
+}
+/* Navigation Styling Ends */
+
+/* Hero Section Styling Starts */
+div.hero-section {
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+div.hero-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.image-png {
+    position: relative;
+}
+
+div.btn {
+    position: absolute;
+    bottom: 85px;
+    left: 140px;
+}
+
+div.btn a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: #fff;
+    color: #010101;
+    border: 0;
+    font-size: 1rem;
+    outline: none;
+}
+
+div.btn a:hover {
+    background: #010101;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+div.image-png-1 {
+    position: relative;
+    margin-top: 3.4em;
+}
+
+div.btn-1 {
+    position: absolute;
+    bottom: 110px;
+    left: 80px;
+}
+
+div.btn-1 a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: #fff;
+    color: #010101;
+    border: 0;
+    font-size: 1rem;
+    outline: none;
+}
+
+div.btn-1 a:hover {
+    background: #010101;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+@media(max-width: 768px) {
+    div.hero-section {
+        padding: 1.5em;
+        margin-top: 2em;
+    }
+    
+    div.hero-image {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* Hero Section Styling Ends */
+
+
+/* body {
     background-image: url('images/ellipse.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+} */
+
+/* svg {
+    background-image: url('images/ellipse.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
+
+div.content {
+    position: absolute;
+    top: 50%;
+}
+
+.svg-background {
+    animation: doRotate 1s infinite linear;
+    transform-origin: center center;
+}
+
+@keyframes doRotate {
+    to {
+        transform: rotate(360deg);
+    }
+} */
