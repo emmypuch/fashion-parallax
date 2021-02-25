@@ -223,6 +223,14 @@ div.btn-1 a:hover {
         display: flex;
         flex-direction: column;
     }
+
+    div.image-png-1 img {
+        display: none;
+    }
+
+    div.btn-1 a {
+        display: none;
+    }
 }
 /* Hero Section Styling Ends */
 
@@ -493,6 +501,25 @@ div.flip-cards-flex {
     font-size: 0.8rem;
     color: #cec9c9;
     padding: 5px;
+  }
+
+  @media (max-width: 768px) {
+    div.flip-cards-section {
+        padding: 2em;
+    }
+    
+    div.flip-cards-flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .card-wrapper,
+  .card {
+    width: 330px;
+    height: 200px;
+    margin: 8px;
+  }
   }
   
 /* Flip-Cards Styling Ends */
