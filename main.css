@@ -150,7 +150,7 @@ div.nav-links ul li:hover div.sub-menu-1 ul li:last-child {
 
 /* Hero Section Styling Starts */
 div.hero-section {
-    padding: 1.5em;
+    padding: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -527,6 +527,155 @@ div.flip-cards-flex {
   }
   
 /* Flip-Cards Styling Ends */
+
+/* Shopping Section Styling Starts */
+div.shopping-section {
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #010101;
+}
+
+.title::after {
+    content: '';
+    background: #fc545e;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.shopping-section-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+div.col-4 img {
+    width: 100%;
+}
+
+div.col-4 h3 {
+    color: #010101;
+    font-weight: 300;
+}
+
+div.col-4 p {
+    color: #555;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+div.rating .fas, div.rating .far {
+    color: #ff523b;
+}
+
+div.col-4:hover {
+    transform: translateY(-5px);
+}
+
+div.col-4-btn a {
+    text-decoration: none;
+    color: #010101;
+    padding: 10px 30px;
+    outline: none;
+    border: 1px solid #fc545e;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+div.col-4-btn a:hover {
+    color: #fff;
+    border: 0;
+    background: #fc545e;
+    transition: 0.5s ease-in-out;
+}
+/* Shopping Section Styling Ends */
+
+/* Offer Styling Starts */
+div.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+div.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+div.col-2 h1 {
+    font-size: 2.5rem;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+div.offer {
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 20px 0;
+}
+
+div.col-2 .offer-img {
+    padding: 50px;
+}
+
+small {
+    color: #555;
+}
+
+a.offer-btn {
+    text-decoration: none;
+    display: inline-block;
+    background: #fc545e;
+    color: #fff;
+    padding: 10px 30px;
+    outline: none;
+    border: 0;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+a.offer-btn:hover {
+    transition: 0.5s ease-in-out;
+    background: #010101;
+    color: #fff;
+}
+/* Offer Styling Ends */
+
+/* Footer Styling Starts */
+div.footer {
+    
+}
+/* Footer Styling Ends */
 
 
 /* body {
