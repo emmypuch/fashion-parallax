@@ -41,6 +41,9 @@ div.nav-links ul li {
     padding: 5px;
     margin: 5px;
     list-style: none;
+    z-index: 1000;
+    position: relative;
+    display: block;
 }
 
 div.nav-links ul li a {
@@ -108,7 +111,7 @@ div.nav-links ul li:hover div.sub-menu-1 {
     display: block;
     position: absolute;
     background: azure;
-    margin-top: 25px;
+    padding-top: 25px;
     margin-left: -15px;
 }
 
@@ -124,6 +127,7 @@ div.nav-links ul li:hover div.sub-menu-1 ul li {
     background: transparent;
     border-radius: 0;
     text-align: left;
+    /* position: relative; */
 }
 
 div.nav-links ul li:hover div.sub-menu-1 ul li a {
