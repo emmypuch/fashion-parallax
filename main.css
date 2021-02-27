@@ -905,6 +905,33 @@ div.mobile-nav {
 
     div.mobile-nav {
         display:flex;
+        justify-content: space-evenly;
+    }
+
+    div.mobile-logo a {
+        color: #010101;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    div.mobile-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.mobile-links ul {
+        list-style: none;
+    }
+
+    div.mobile-links ul li a{
+        text-decoration: none;
+        color: #010101;
+        font-size: 0.9rem;
+    }
+
+    div.toggle-btn {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 /* Mobile Nav-Links Styling Ends */
