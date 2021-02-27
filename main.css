@@ -166,7 +166,6 @@ div.hero-image-icon img {
     width: 530px;
     height: 300px;
     border-radius: 10px;
-    margin-right: 30px;
     /* position: relative; */
 }
 
@@ -219,14 +218,14 @@ div.hero-image-icon-1 img {
     width: 530px;
     height: 300px;
     border-radius: 10px;
-    margin-right: 30px;
-    position: relative;
+    margin-left: 15px;
+    /* position: relative; */
 }
 
 div.hero-image-icon-content-1 {
     position: absolute;
-    left: 780px;
-    top: 220px;
+    left: 790px;
+    top: 240px;
 }
 
 div.hero-image-icon-content-1 h1 {
@@ -268,6 +267,12 @@ div.hero-image-icon-content-link-1 a:hover {
     div.hero-image {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.hero-section {
+        padding: 1em;
     }
 
     div.sub-hero-section {
@@ -281,24 +286,32 @@ div.hero-image-icon-content-link-1 a:hover {
     }
 
     div.hero-image-icon img {
-        width: 480px;
+        width: 400px;
         height: 300px;
-        border-radius: 10px;
-        margin-left: 10px;
     }
 
     div.hero-image-icon-1 img {
-        width: 480px;
+        width: 400px;
         height: 300px;
-        border-radius: 10px;
-        margin-left: 10px;
-        position: relative;
+        margin-left: 0;
     }
     
     div.hero-image-icon-content-1 {
-        position: absolute;
-        left: 30px;
-        top: 530px;
+        left: 45px;
+        top: 545px;
+    }
+
+    div.hero-image-icon-content-1 h6 {
+        font-size: 0.7rem;
+    }
+
+    div.hero-image-icon-content {
+        top: 80px;
+        left: 45px;
+    }
+
+    div.hero-image-icon-content h6 {
+        font-size: 0.7rem;
     }
 }
 /* Hero Section Styling Ends */
