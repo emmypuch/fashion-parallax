@@ -906,6 +906,7 @@ div.mobile-nav {
     div.mobile-nav {
         display:flex;
         justify-content: space-evenly;
+        position: relative;
     }
 
     div.mobile-logo a {
@@ -917,6 +918,16 @@ div.mobile-nav {
     div.mobile-links {
         display: flex;
         flex-direction: row;
+    }
+
+    ul.linkks {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 99;
+        background-color: azure;
+        padding: 15px;
+        width: 100%;
     }
 
     div.mobile-links ul {
@@ -931,7 +942,21 @@ div.mobile-nav {
 
     div.toggle-btn {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 2rem;
+        width: 2rem;
+    }
+    div.dots-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    span[class^="dot-"] {
+        height: 0.4rem;
+        background-color: #010101;
+        width: 0.4rem;
+        border-radius: 50px;
     }
 }
 /* Mobile Nav-Links Styling Ends */
