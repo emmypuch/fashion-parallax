@@ -907,6 +907,7 @@ div.mobile-nav {
         display:flex;
         justify-content: space-evenly;
         position: relative;
+        margin-top: 0.8em;
     }
 
     div.mobile-logo a {
@@ -935,6 +936,11 @@ div.mobile-nav {
         list-style: none;
     }
 
+    div.mobile-links ul li {
+        border-bottom: 1px dotted #010101;
+        padding: 10px;
+    }
+
     div.mobile-links ul li a{
         text-decoration: none;
         color: #010101;
@@ -948,6 +954,7 @@ div.mobile-nav {
         height: 2rem;
         width: 2rem;
         cursor: pointer;
+        border-radius: 50%;
     }
     div.dots-row {
         display: flex;
