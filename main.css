@@ -969,7 +969,11 @@ div.mobile-nav {
     }
 
     div.sub-menu-1 {
-        display: flex;
+        /* display: flex; */
+    }
+
+    .fas {
+        float: right;
     }
 }
 /* Mobile Nav-Links Styling Ends */
