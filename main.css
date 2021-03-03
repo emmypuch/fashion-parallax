@@ -928,6 +928,7 @@ div.mobile-nav {
         background-color: azure;
         padding: 15px;
         width: 100%;
+        visibility: hidden;
     }
 
     div.mobile-links ul {
