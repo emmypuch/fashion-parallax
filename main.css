@@ -937,7 +937,7 @@ div.mobile-nav {
     }
 
     div.mobile-links ul li {
-        border-bottom: 1px dotted #010101;
+        /* border-bottom: 1px dotted #010101; */
         padding: 10px;
     }
 
@@ -965,8 +965,11 @@ div.mobile-nav {
         height: 0.4rem;
         background-color: #010101;
         width: 0.4rem;
-        border-radius: 50px;s
+        border-radius: 50px;
     }
 
+    div.sub-menu-1 {
+        display: flex;
+    }
 }
 /* Mobile Nav-Links Styling Ends */
