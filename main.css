@@ -838,6 +838,11 @@ div.footer-col-3 ul li a{
     font-size: 0.9rem;
 }
 
+div.footer-col-3 ul li a:hover{
+    text-decoration: underline;
+    color: #cec9c9;
+}
+
 div.footer-col-4 h3 {
     font-size: 1.2rem;
 }
@@ -854,6 +859,11 @@ div.footer-col-4 ul li a{
     text-decoration: none;
     color: #8a8a8a;
     font-size: 0.9rem;
+}
+
+div.footer-col-4 ul li a:hover{
+    text-decoration: underline;
+    color: #cec9c9;
 }
 
 div.app-logo {
