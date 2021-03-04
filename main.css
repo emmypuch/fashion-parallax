@@ -627,6 +627,7 @@ div.row {
     position: relative;
     line-height: 60px;
     color: #010101;
+    font-size: 1.7rem;
 }
 
 .title::after {
@@ -693,7 +694,7 @@ div.col-4-btn a {
 div.col-4-btn a:hover {
     color: #fff;
     border: 0;
-    background: #fc545e;
+    background: #010101;
     transition: 0.5s ease-in-out;
 }
 
@@ -907,7 +908,7 @@ div.mobile-nav {
         display:flex;
         justify-content: space-evenly;
         position: relative;
-        margin-top: 0.8em;
+        padding-top: 1em;
     }
 
     div.mobile-logo a {
@@ -966,10 +967,6 @@ div.mobile-nav {
         background-color: #010101;
         width: 0.4rem;
         border-radius: 50px;
-    }
-
-    div.sub-menu-1 {
-        /* display: flex; */
     }
 
     .fas {
